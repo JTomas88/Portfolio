@@ -12,7 +12,10 @@ export const NavBar = () => {
         >
           <div className="container d-flex justify-content-center">
             <button type="button" style={{ fontSize: "30px" }} className="btn">
-              <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+              <Link
+                to="/Portfolio"
+                style={{ textDecoration: "none", color: "black" }}
+              >
                 <IoHome />
               </Link>
             </button>
