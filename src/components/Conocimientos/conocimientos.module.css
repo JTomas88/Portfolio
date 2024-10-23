@@ -1,17 +1,20 @@
-.cajon_conocimientos{
+.cajon_conocimientos {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
     border-color: black 1px solid;
     border-radius: 15px;
-    width: 70%;
-
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
 }
 
 .fondo_conocimientos {
-    position: relative; 
     background-image: url("../../assets/conocimientos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fondo_conocimientos::before {
@@ -21,11 +24,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
-.container.text-center {
-    position: relative; /* Asegúrate de que el contenedor tenga una posición relativa */
-    z-index: 3; /* Asegúrate de que el contenido esté por encima del fondo */
+.contenedor_conocimientos {
+    position: relative;
+    z-index: 2;
+    width: 100%;
 }

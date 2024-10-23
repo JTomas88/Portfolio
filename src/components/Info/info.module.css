@@ -1,0 +1,6 @@
+.cajon_info {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-color: black 1px solid;
+    border-radius: 15px;
+    width: 90%;
+}
