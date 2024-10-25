@@ -76,7 +76,7 @@ export const Home = () => {
             className={`btn btn-dark ${styles.btn_inf_der}`}
             onClick={() => navigate("/conocimientos")} 
           >
-            Tecnologías
+            Tecnologías / Idiomas
           </button>
           <img
             src={flecha}

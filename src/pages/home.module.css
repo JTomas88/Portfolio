@@ -18,7 +18,7 @@ h1{
 .flecha_sup_izq {
     position: absolute; 
     top: 30%; 
-    left: 27%; 
+    left: 23%; 
     width: 250px; 
     height: auto; 
     transform: scaleX(-1)
@@ -26,7 +26,7 @@ h1{
 .flecha_sup_der{
     position: absolute; 
     top: 30%; 
-    left: 56.5%; 
+    left: 58.5%; 
     width: 250px; 
     height: auto;
 }
@@ -65,7 +65,7 @@ h1{
 
 .btn_inf_izq{
     position: absolute; 
-    top: 85%; 
+    top: 88%; 
     left: 17.5%; 
     width: 250px; 
     height: auto;
@@ -73,7 +73,7 @@ h1{
 
 .btn_inf_der{
     position: absolute; 
-    top: 85%; 
+    top: 88%; 
     left: 67.5%; 
     width: 250px; 
     height: auto;
@@ -122,7 +122,7 @@ h1{
 @media (max-width: 768px) {
     .flecha_sup_izq{
         position: absolute; 
-        top: 35%; 
+        top: 38%; 
         left: 23%; 
         width: 50px; 
         height: auto; 
@@ -131,7 +131,7 @@ h1{
 
     .flecha_sup_der{
         position: absolute; 
-        top: 35%; 
+        top: 38%; 
         left: 65.5%; 
         width: 50px; 
         height: auto;
@@ -168,14 +168,15 @@ h1{
         top: 28%;
         left: 7%;
         width: 100px;
-        height: auto;
+        height: 62px;
     }
     .btn_sup_der{
         position: absolute; 
-        top: 20%; 
-        left: 62.5%; 
-        width: 100px; 
-        height: auto;
+        top: 28%; 
+        left: 59.5%; 
+        width: 130px; 
+        height: 62px;
+        text-align: left;
     }
     
     .btn_inf_izq{
@@ -183,7 +184,7 @@ h1{
         top: 80%; 
         left: 3.5%; 
         width: 100px; 
-        height: auto;
+        height: 62px;
         text-align: center;
     }
     
@@ -192,7 +193,7 @@ h1{
         top: 80%; 
         left: 70.5%; 
         width: 100px; 
-        height: auto;
+        height: 62px;
     }
     
 

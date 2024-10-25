@@ -34,7 +34,7 @@ export const Info = () => {
 
           <div className="mt-3 mb-3">
             <FaPhoneVolume />
-            <h5>Telefono de contacto</h5>
+            <h5>Teléfono de contacto</h5>
             <p>722 266 779</p>
           </div>
 

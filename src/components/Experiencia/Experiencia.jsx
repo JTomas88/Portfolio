@@ -56,7 +56,7 @@ export const Experiencia = () => {
                         <p>
                           Auditoría de llamadas atendidas por agentes
                           telefónicos para su evaluación siguiendo los
-                          estándares de calidad marcadas por la empresa.
+                          estándares de calidad marcados por la empresa.
                           <br></br>
                           Formaciones de reciclaje y nuevos productos (2
                           formaciones/mes)<br></br>
@@ -152,7 +152,7 @@ export const Experiencia = () => {
                           biografía con timeline, etc.).
                           <br></br>
                           Otro de los objetivos es crear una comunidad de
-                          usuarios registrado para compartir experiencias
+                          usuarios registrados para compartir experiencias
                           (conciertos, fotografías, sorteos, etc)
                         </p>
                       </li>
