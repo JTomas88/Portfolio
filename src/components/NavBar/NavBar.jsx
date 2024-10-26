@@ -45,51 +45,65 @@ export const NavBar = () => {
   if (enHome) return null;
 
   return (
-    <div className={"container"}>
+    <div className="container">
       <nav className={`navbar sticky-top bg-body-tertiary shadow ${styles.botones}`}>
-        {!enHome ? (
-          <div>
+        <div>
 
+        </div>
+        {!enHome ? (
+      <div className={styles.boton_container}>
             {pagActual?.buttonLink === '/sobremi' ? (
-              <button type="button" className="btn btn-outline-dark" disabled>
-                <LuPersonStanding />
-                Quién soy
+              <button type="button" className="btn btn-outline-dark" disabled style={{ width: "178px", height: "61px" }}>
+                <div>
+                  <LuPersonStanding />
+                </div>
+                Sobre mí
               </button>
             ) : (
-              <button type="button" className="btn btn-outline-dark"  onClick={() => navigate('/sobremi')}>
-                <LuPersonStanding />
-                Quién soy
+              <button type="button" className="btn btn-outline-dark" onClick={() => navigate('/sobremi')} style={{ width: "178px", height: "61px" }}>
+                <div>
+                  <LuPersonStanding />
+                </div>
+                Sobre mí
               </button>
             )}
 
 
             {pagActual?.buttonLink === '/formacion' ? (
-              <button type="button" className="btn btn-outline-dark"  disabled >
-                <IoBookOutline />
+              <button type="button" className="btn btn-outline-dark" disabled style={{ width: "178px", height: "61px" }}>
+                <div>
+                  <IoBookOutline />
+                </div>
                 Formación
               </button>
             ) : (
-              <button type="button" className="btn btn-outline-dark"  onClick={() => navigate('/formacion')} >
-                <IoBookOutline />
+              <button type="button" className="btn btn-outline-dark" onClick={() => navigate('/formacion')} style={{ width: "178px", height: "61px" }} >
+                <div>
+                  <IoBookOutline />
+                </div>
                 Formación
               </button>
             )}
 
 
-
-            <button type="button" className="btn btn-outline-dark" onClick={()=> navigate('/Portfolio')} >
+            {/* Botón Home */}
+            <button type="button" className="btn btn-outline-dark" onClick={() => navigate('/Portfolio')} >
               <IoHome style={{ fontSize: "30px" }} />
             </button>
 
 
             {pagActual?.buttonLink === '/conocimientos' ? (
-              <button type="button" className="btn btn-outline-dark" disabled >                 
-                    <IoCodeSlashOutline />
+              <button type="button" className="btn btn-outline-dark" disabled >
+                <div>
+                  <IoCodeSlashOutline />
+                </div>
                 Tecnologías / Idiomas
               </button>
             ) : (
-              <button type="button" className="btn btn-outline-dark" onClick={()=>navigate('/conocimientos')} >                
-                    <IoCodeSlashOutline />                 
+              <button type="button" className="btn btn-outline-dark" onClick={() => navigate('/conocimientos')} >
+                <div>
+                  <IoCodeSlashOutline />
+                </div>
                 Tecnologías / Idiomas
               </button>
             )}
@@ -97,13 +111,17 @@ export const NavBar = () => {
 
 
             {pagActual?.buttonLink === '/experiencia' ? (
-              <button type="button" className="btn btn-outline-dark" disabled>               
-                    <MdOutlineMapsHomeWork />                  
+              <button type="button" className="btn btn-outline-dark" disabled>
+                <div>
+                  <MdOutlineMapsHomeWork />
+                </div>
                 Experiencia / Proyectos
               </button>
             ) : (
-              <button type="button" className="btn btn-outline-dark"  onClick={()=>navigate('experiencia')}>              
-                    <MdOutlineMapsHomeWork />               
+              <button type="button" className="btn btn-outline-dark" onClick={() => navigate('experiencia')}>
+                <div>
+                  <MdOutlineMapsHomeWork />
+                </div>
                 Experiencia / Proyectos
               </button>
             )}
@@ -112,6 +130,9 @@ export const NavBar = () => {
 
 
           </div>
+
+
+
         ) : null}
 
       </nav>

@@ -8,18 +8,19 @@ import { LuPersonStanding } from "react-icons/lu";
 
 
 export const Info = () => {
-    return (
+  return (
+    <>
+      <div className={styles.titulo}>
+        Sobre mí
+      </div>
       <div
         className={`container-fluid mt-4 mb-4 d-flex justify-content-center align-items-center`}
       >
         <div
           className={`row d-flex justify-content-center text-center ${styles.cajon_info}`}
         >
+
           <div className="mt-3">
-            <h3>
-              <LuPersonStanding />
-              Quien soy
-            </h3>
             <p style={{ textAlign: "center" }}>
               Apasionado desarrollador full stack con un sólido dominio de
               tecnologías como React, Python y SQL. <br></br>
@@ -51,5 +52,8 @@ export const Info = () => {
           </div>
         </div>
       </div>
-    );
+    </>
+
+
+  );
 }

@@ -10,8 +10,13 @@
 }
 
 .botones{
-    display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
 }
+
+.boton_container {
+    display: flex;
+    justify-content: space-around; /* Distribuye los botones a lo largo del ancho disponible */
+    width: 100%; /* Ocupa todo el ancho disponible del navbar */
+    gap: 20px; /* Opcional: agrega espacio entre botones sin aumentar el ancho total */
+  }
 
