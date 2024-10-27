@@ -32,7 +32,7 @@ export const NavBar = () => {
     },
   };
 
-  const enHome = location.pathname === "/Portfolio";
+  const enHome = location.pathname === "/Portfolio/";
   const pagActual = paginas[location.pathname];
 
   if (enHome) return null;
@@ -75,7 +75,7 @@ export const NavBar = () => {
             )}
 
             {/* Botón Home */}
-            <button type="button" className={`btn btn-outline-dark ${styles.boton}`} onClick={() => navigate("/Portfolio")}>
+            <button type="button" className={`btn btn-outline-dark ${styles.boton}`} onClick={() => navigate("/Portfolio/")}>
               <IoHome style={{ fontSize: "30px" }} />
             </button>
 
