@@ -32,7 +32,7 @@ export const NavBar = () => {
     },
   };
 
-  const enHome = location.pathname === "/Portfolio/";
+  const enHome = location.pathname === "/Portfolio";
   const pagActual = paginas[location.pathname];
 
   if (enHome) return null;
@@ -40,7 +40,7 @@ export const NavBar = () => {
   return (
     <div className={`container ${styles.contenedor}`}>
       <nav className={`navbar sticky-top bg-body-tertiary shadow ${styles.botones}`}>
-        {pagActual?.buttonLink !== "/Portfolio/" && (
+        {location.pathname !== "/" && (
           <div className={styles.boton_container}>
             {pagActual?.buttonLink === "/sobremi" ? (
               <button type="button" className={`btn btn-outline-dark ${styles.boton}`} disabled>
@@ -75,7 +75,7 @@ export const NavBar = () => {
             )}
 
             {/* Botón Home */}
-            <button type="button" className={`btn btn-outline-dark ${styles.boton}`} onClick={() => navigate("/Portfolio/")}>
+            <button type="button" className={`btn btn-outline-dark ${styles.boton}`} onClick={() => navigate("/")}>
               <IoHome style={{ fontSize: "30px" }} />
             </button>
 

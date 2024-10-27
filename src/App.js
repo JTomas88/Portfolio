@@ -11,11 +11,11 @@ import { NavBar } from './components/NavBar/NavBar.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <NavBar />
       <div className="App-content">
         <Routes>
-          <Route path="/Portfolio/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/sobremi" element={<Info />} />
           <Route path="/experiencia" element={<Experiencia />} />
           <Route path="/formacion" element={<Formacion />} />
