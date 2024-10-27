@@ -1,9 +1,8 @@
 .contenedor {
-    width: 100vw; 
-    padding: 0; 
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  width: 100%; /* Cambia a 100% para ocupar todo el ancho del viewport */
+  padding: 0; 
+  display: flex;
+  justify-content: center; /* Centra el contenido del contenedor */
   }
   
   /* Botones del Navbar */
