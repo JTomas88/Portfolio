@@ -1,22 +1,66 @@
-.box_navBar {
-    border-radius: 15px;
-}
-
-.noPadding {
+.contenedor {
+    width: 100vw; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  /* Botones del Navbar */
+  .botones {
+    justify-content: center;
+    width: 100%; 
     padding: 0;
     margin: 0;
-    box-shadow: none; /* Eliminar sombra */
-    border: none;
-}
-
-.botones{
-    justify-content: center;
-}
-
-.boton_container {
-    display: flex;
-    justify-content: space-around; /* Distribuye los botones a lo largo del ancho disponible */
-    width: 100%; /* Ocupa todo el ancho disponible del navbar */
-    gap: 20px; /* Opcional: agrega espacio entre botones sin aumentar el ancho total */
   }
-
+  
+  /* Contenedor de botones */
+  .boton_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+    padding: 0;
+  }
+  
+  /* Estilo base para los botones */
+  .boton {
+    width: 178px;
+    height: 61px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+  }
+  
+  
+  /* Ajuste para dispositivos móviles */
+  @media (max-width: 768px) {
+    .contenedor {
+      width: 100vw;
+    }
+  
+    .boton_container {
+      gap: 5px;
+      padding: 0;
+    }
+  
+    .boton {
+      width: 100px;
+      height: 70px;
+      font-size: 12px;
+      white-space: normal;
+    }
+  
+    /* Ajuste de tamaño de icono */
+    .boton div {
+      font-size: 15px;
+    }
+  }
+  
