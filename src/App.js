@@ -12,7 +12,7 @@ import { NavBar } from './components/NavBar/NavBar.jsx';
 function App() {
   return (
     <BrowserRouter>
-      {/* <NavBar /> */}
+      <NavBar />
       <div className="App-content">
         <Routes>
           <Route path="/Portfolio/" element={<Home />} />

@@ -40,7 +40,7 @@ export const NavBar = () => {
   return (
     <div className={`container ${styles.contenedor}`}>
       <nav className={`navbar sticky-top bg-body-tertiary shadow ${styles.botones}`}>
-        {!enHome && (
+        {pagActual?.buttonLink !== "/Portfolio/" && (
           <div className={styles.boton_container}>
             {pagActual?.buttonLink === "/sobremi" ? (
               <button type="button" className={`btn btn-outline-dark ${styles.boton}`} disabled>
