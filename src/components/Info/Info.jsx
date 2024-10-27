@@ -3,7 +3,6 @@ import { FaPhoneVolume } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaHome } from "react-icons/fa";
 import styles from "./info.module.css"
-import { LuPersonStanding } from "react-icons/lu";
 
 
 
