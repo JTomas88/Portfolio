@@ -9,6 +9,7 @@ import { TbApi, TbSql } from "react-icons/tb";
 import { LuFileCode2 } from "react-icons/lu";
 import { FaLaptopCode } from "react-icons/fa6";
 import { FaGooglePlus } from "react-icons/fa6";
+import { FaAngular } from "react-icons/fa";
 
 export const Conocimientos = () => {
     return (
@@ -58,6 +59,12 @@ export const Conocimientos = () => {
                                 <div className="col-4 d-flex flex-column align-items-center">
                                     <SiJsonwebtokens size={40} />
                                     <p>JWT Authentication</p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="d-flex flex-column align-items-center justify-content-center">
+                                    <FaAngular size={40} />
+                                    <p>Angular</p>
                                 </div>
                             </div>
                         </div>

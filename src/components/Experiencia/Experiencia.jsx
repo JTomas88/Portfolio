@@ -41,7 +41,7 @@ export const Experiencia = () => {
 
                         <span className="">
                           <GrLocationPin /> Toledo, España
-                          <p className="ms-3">2009 - Actualmente</p>
+                          <p className="ms-3">2009 - 2024</p>
                         </span>
                       </div>
                     </button>
@@ -105,6 +105,74 @@ export const Experiencia = () => {
                 Proyectos
               </h4>
               <div className="accordion" id="proyectos">
+
+
+                <div className={`accordion-item ${styles.items}`}>
+                  <h2 className="accordion-header" id="headingOne">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#prideride"
+                      aria-expanded="false"
+                      aria-controls="prideride"
+                    >
+                      <div
+                        className={`d-flex flex-column  ${styles.custom_width}`}
+                      >
+                        <strong style={{ fontSize: "18px" }}>PrideRide</strong>
+                        <span className="">
+                          <GrLocationPin /> Toledo - remoto
+                          <p className="ms-3">Enero 2025 - actualmente</p>
+                        </span>
+                      </div>
+                    </button>
+                  </h2>
+                  <div
+                    id="prideride"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#proyectos"
+                  >
+                    <div className="accordion-body">
+                      <ul>
+
+                        <li className="text-start">
+                          <strong>Repositorio</strong>
+                          <p className={styles.ruta}>
+                            <a
+                              href="https://github.com/JTomas88/PrideRide"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              https://github.com/JTomas88/PrideRide
+                            </a>
+                          </p>
+                        </li>
+                        <li className="text-start">
+                          <strong>Objetivo</strong>
+                          <p>
+                            El objetivo es crear una plataforma que permita compartir viajes compartidos entre usuarios.
+                            <br></br>
+                            Los usuarios (previamente verificados como conductores) pueden publicar sus viajes (origen-destino, fecha, número de plazas disponibles).
+                            Otros usuarios podrán buscar trayectos de viajes, e inscribirse como pasajero en aquellos vehículos que coincidan con sus criterios de búsqueda
+                          </p>
+                        </li>
+                        <li className="text-start">
+                          <strong>Tecnologías utilizadas</strong>
+                          <p>
+                            Front: Angular <br></br>
+                            Back: Python
+                            <br></br>
+                            APIs externas: Cloudinary, Google Maps.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+
                 <div className={`accordion-item ${styles.items}`}>
                   <h2 className="accordion-header" id="headingOne">
                     <button
@@ -121,7 +189,7 @@ export const Experiencia = () => {
                         <strong style={{ fontSize: "18px" }}>Fans Club</strong>
                         <span className="">
                           <GrLocationPin /> Toledo - remoto
-                          <p className="ms-3">Octubre 2024 - Actualmente</p>
+                          <p className="ms-3">Octubre 2024 - Enero 2025</p>
                         </span>
                       </div>
                     </button>
@@ -133,15 +201,16 @@ export const Experiencia = () => {
                   >
                     <div className="accordion-body">
                       <ul>
+
                         <li className="text-start">
                           <strong>Repositorio</strong>
                           <p className={styles.ruta}>
                             <a
-                              href="https://github.com/JTomas88/Fans_Club"
+                              href="https://github.com/JTomas88/FansClub"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              https://github.com/JTomas88/Fans_Club
+                              https://github.com/JTomas88/FansClub
                             </a>
                           </p>
                         </li>

@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import fotoPerfil from "../assets/profile.jpg";
+import fotoPerfil2 from "../assets/3.png";
 import flecha from "../assets/flecha.png";
 import styles from "./home.module.css";
 
@@ -12,7 +13,7 @@ export const Home = () => {
       <div className="d-flex flex-column justify-content-center align-items-center h-100">
         <div>
           <img
-            src={fotoPerfil}
+            src={fotoPerfil2}
             className={`rounded-circle mt-4 ${styles.fotoPerfil}`}
             alt="Perfil"
           />
@@ -29,7 +30,7 @@ export const Home = () => {
           <button
             type="button"
             className={`btn btn-dark ${styles.btn_sup_izq}`}
-            onClick={() => navigate("/sobremi")} 
+            onClick={() => navigate("/sobremi")}
           >
             Sobre mi
           </button>
@@ -74,7 +75,7 @@ export const Home = () => {
           <button
             type="button"
             className={`btn btn-dark ${styles.btn_inf_der}`}
-            onClick={() => navigate("/conocimientos")} 
+            onClick={() => navigate("/conocimientos")}
           >
             Tecnologías / Idiomas
           </button>
