@@ -11,7 +11,7 @@ import { NavBar } from './components/NavBar/NavBar.jsx';
 
 function App() {
   return (
-    <BrowserRouter basename="/Portfolio">
+    <BrowserRouter basename="/">
       <NavBar />
       <div className="App-content">
         <Routes>

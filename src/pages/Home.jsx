@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import fotoPerfil from "../assets/profile.jpg";
 import fotoPerfil2 from "../assets/3.png";
 import flecha from "../assets/flecha.png";
 import styles from "./home.module.css";
