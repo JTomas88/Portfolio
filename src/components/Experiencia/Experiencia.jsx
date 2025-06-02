@@ -206,6 +206,13 @@ export const Experiencia = () => {
                           <strong>Repositorio</strong>
                           <p className={styles.ruta}>
                             <a
+                              href="https://siennafans.club"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              https://siennafans.club
+                            </a>
+                            <a
                               href="https://github.com/JTomas88/FansClub"
                               target="_blank"
                               rel="noopener noreferrer"
