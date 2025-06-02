@@ -137,14 +137,14 @@ export const Experiencia = () => {
                       <ul>
 
                         <li className="text-start">
-                          <strong>Repositorio</strong>
+                          <strong>Repositorio Git</strong>
                           <p className={styles.ruta}>
                             <a
                               href="https://github.com/JTomas88/PrideRide"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              https://github.com/JTomas88/PrideRide
+                              Git / PrideRide
                             </a>
                           </p>
                         </li>
@@ -201,23 +201,30 @@ export const Experiencia = () => {
                   >
                     <div className="accordion-body">
                       <ul>
-
                         <li className="text-start">
-                          <strong>Repositorio</strong>
+                          <strong>Web</strong>
                           <p className={styles.ruta}>
+
                             <a
                               href="https://siennafans.club"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              https://siennafans.club
+                              Sienna Fans Club
                             </a>
+                          </p>
+                        </li>
+
+                        <li className="text-start">
+                          <strong>Repositorio Git</strong>
+                          <p className={styles.ruta}>
+
                             <a
                               href="https://github.com/JTomas88/FansClub"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              https://github.com/JTomas88/FansClub
+                              Git / FansClub
                             </a>
                           </p>
                         </li>
@@ -278,14 +285,14 @@ export const Experiencia = () => {
                     <div className="accordion-body">
                       <ul>
                         <li className="text-start">
-                          <strong>Repositorio</strong>
+                          <strong>Repositorio Git</strong>
                           <p>
                             <a
                               href="https://github.com/JTomas88/Carefy-ProyectoFinal-"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              https://github.com/JTomas88/Carefy-ProyectoFinal-{" "}
+                              Git / Carefy
                             </a>
                           </p>
                         </li>
